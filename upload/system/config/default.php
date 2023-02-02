@@ -16,8 +16,8 @@ $_['date_timezone']        = 'UTC';
 // Database
 $_['db_engine']            = 'mysqli'; // mpdo, mysqli or pgsql
 $_['db_hostname']          = 'localhost';
-$_['db_username']          = 'root';
-$_['db_password']          = '';
+$_['db_username']          = 'k9rado';
+$_['db_password']          = 'k9rado';
 $_['db_database']          = '';
 $_['db_port']              = 3306;
 $_['db_autostart']         = false;
@@ -25,7 +25,7 @@ $_['db_autostart']         = false;
 // Mail
 $_['mail_engine']          = 'mail'; // mail or smtp
 $_['mail_from']            = ''; // Your E-Mail
-$_['mail_sender']          = ''; // Your name or company name
+$_['mail_sender']          = 'k9rado'; // Your name or company name
 $_['mail_reply_to']        = ''; // Reply to E-Mail
 $_['mail_smtp_hostname']   = '';
 $_['mail_smtp_username']   = '';
@@ -50,7 +50,7 @@ $_['template_directory']   = '';
 $_['template_cache']       = false;
 
 // Error
-$_['error_display']        = true;
+$_['error_display']        = false;
 $_['error_log']            = true;
 $_['error_filename']       = 'error.log';
 
